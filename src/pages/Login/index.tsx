@@ -67,7 +67,7 @@ export default function SignIn() {
             <Input 
               name="password"
               id="password"
-              type="text"
+              type="password"
               value={password}
               onChange={(event) => setPassword(event.target.value)}
               focusBorderColor="blue.500"
